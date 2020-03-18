@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "318881694871",
+    "firebase_url": "https://hello-a3cf1.firebaseio.com",
+    "project_id": "hello-a3cf1",
+    "storage_bucket": "hello-a3cf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318881694871:android:3e33d724c5299a054fd5d2",
+        "android_client_info": {
+          "package_name": "com.example.pulsetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318881694871-m6roe761ldshdkv506amkub0se6ceilm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pulsetracker",
+            "certificate_hash": "3f39505af5ef8c1da3311a7e797fc181b28ffe95"
+          }
+        },
+        {
+          "client_id": "318881694871-m0pjjmrf0rcu6naj0fl6o4shauoo1aud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtqIK1ZEJLgZeD0keAQjZ2gImKHS07CsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318881694871-7pnsvmlc91ejp3jpjnqnavkqcmc74svr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

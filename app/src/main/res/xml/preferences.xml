@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="BPM Normal Range">
+
+        <EditTextPreference android:title="Minimum BPM"
+            android:summary="60"
+            android:key="@string/bpm1"
+            android:inputType="number"/>
+
+        <EditTextPreference android:title="Maximum BPM"
+            android:summary="100"
+            android:key="@string/bpm2"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notifications">
+
+        <SwitchPreference android:title="Real time Notifications"
+            android:summary="Receive Alerts even if App is closed"
+            android:key="@string/switch_notifications"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Sign in Information">
+
+        <Preference android:title="Email"
+            android:summary="Tap to Sign Out"
+            android:key="@string/signOut"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Database Control">
+
+        <Preference android:title="Clear all data from database"
+            android:summary="Tap to Clear"
+            android:key="@string/clearData"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

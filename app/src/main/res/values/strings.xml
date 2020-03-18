@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pulse Tracker</string>
+    <string name="web_client_id">318881694871-m0pjjmrf0rcu6naj0fl6o4shauoo1aud.apps.googleusercontent.com</string>
+    <string name="channel_name">PULSE_INFO</string>
+    <string name="channel_desc">info_about_pulse</string>
+    <string name="channel_id">PULSE_TRACKER</string>
+    <string name="switch_notifications">notifications</string>
+    <string name="signOut">signOut</string>
+    <string name="clearData">clear</string>
+    <string name="bpm1">bpm_min</string>
+    <string name="bpm2">bpm_max</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

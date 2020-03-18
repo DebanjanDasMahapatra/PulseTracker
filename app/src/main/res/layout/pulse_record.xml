@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_entry"
+    android:id="@+id/record"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:textColor="#c7c7c7"
+        android:fontFamily="@font/mulu_regular"
+        android:id="@+id/dateHolder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulse"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:paddingEnd="15dp"
+        android:textColor="#c7c7c7"
+        android:textStyle="bold"
+        android:fontFamily="@font/muil_bold"
+        android:layout_centerVertical="true"
+        android:id="@+id/pulseHolder"/>
+
+</RelativeLayout>
